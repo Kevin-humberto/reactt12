@@ -1,0 +1,48 @@
+/* src/styles/asistencia/student/justificacion/Justificacion.css */
+
+/* --- Estilos base y variables (usadas para colores específicos) --- */
+.justificaciones-page {
+    /* Fondo general: Azul marino muy oscuro (#0f172a) */
+    background-color: #0f172a; 
+    min-height: 100vh;
+    padding: 2rem;
+    color: #f8fafc; /* Color de texto claro */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* --- Estilos para los estados de las insignias --- */
+.badge-pendiente {
+    background-color: #fcd34d; /* Amarillo */
+    color: #b45309; /* Marrón */
+    border: 1px solid #fde68a;
+}
+.badge-aprobado {
+    background-color: #10b981; /* Verde esmeralda */
+    color: #ecfdf5; /* Blanco verdoso */
+    border: 1px solid #34d399;
+}
+.badge-rechazada {
+    background-color: #f87171; /* Rojo claro */
+    color: #7f1d1d; /* Marrón rojizo */
+    border: 1px solid #fecaca;
+}
+.badge-fuera-plazo {
+    background-color: #374151; /* Gris oscuro */
+    color: #f8fafc; /* Blanco claro */
+    border: 1px solid #4b5563;
+}
+
+/* --- Media Query para Responsividad (Móvil) --- */
+@media (max-width: 768px) {
+    .justificaciones-page {
+        padding: 1rem;
+    }
+    .justificacion-card {
+        /* Asegura que el contenido se apile en móvil si es necesario */
+        flex-direction: column;
+    }
+    .justificacion-card-header {
+        flex-direction: column;
+        align-items: flex-start !important;
+    }
+}
