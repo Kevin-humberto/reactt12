@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Configuración base de axios
 const API = axios.create({
-  baseURL: 'https://secret-seance-wr9q549775rvhgpr-8000.app.github.dev/api/v1',
+  baseURL: 'https://foul-spooky-cobweb-g4wvw6jr55vcq66-8000.app.github.dev/api/v1',
   headers: {
     'Content-Type': 'application/json',
   },
