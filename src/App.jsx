@@ -74,7 +74,7 @@ function App() {
           </Route>
 
           {/* Redirección principal */}
-          <Route path="/" element={<Navigate to="/student/cursos" replace />} />
+          <Route path="/" element={<Navigate to="/admin/initial" replace />} />
 
           {/* 404 - Página no encontrada */}
           <Route path="*" element={<Navigate to="/student/cursos" replace />} />
