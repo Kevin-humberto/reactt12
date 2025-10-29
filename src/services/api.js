@@ -4,7 +4,7 @@ import axios from 'axios';
 // 🚀 Usamos la variable de entorno de Vite
 // import.meta.env.VITE_REACT_APP_API_URL
 // Si la variable no está definida, usamos 'http://localhost:8000' como fallback seguro.
-const API_BASE_URL = import.meta.env.VITE_REACT_APP_API_URL || 'http://localhost:8000'; 
+const API_BASE_URL = import.meta.env.VITE_REACT_APP_API_URL || 'https://secret-seance-wr9q549775rvhgpr-8000.app.github.dev'; 
 
 const api = axios.create({
 
